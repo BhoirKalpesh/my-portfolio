@@ -57,7 +57,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Kalpesh, a Machine Learning and Next.js Developer based
+            Hi! I&apos;m Kalpesh, a Machine Learning Engineer based
             in Mumbai.
           </p>
 
