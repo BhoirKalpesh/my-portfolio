@@ -1,41 +1,12 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Work", link: "#work" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
-  {
-    id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
-    description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
-    img: "/b1.svg",
-    spareImg: "",
-  },
-  {
-    id: 2,
-    title: "I'm very flexible with time zone communications",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-start",
-    img: "",
-    spareImg: "",
-  },
-  {
-    id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-center",
-    img: "",
-    spareImg: "",
-  },
+
   {
     id: 4,
     title: "Tech enthusiast with a passion for development.",
@@ -49,15 +20,14 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently working on Deep Learning project",
+    title: "Currently working on Deep Learning projects",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start  lg:justify-center",
     img: "/b5.svg",
     spareImg: "/grid.svg",
-  },
-  {
+  },{
     id: 6,
     title: "Do you want to start a project together?",
     description: "",
@@ -78,13 +48,14 @@ export const projects = [
     iconLists: [],
     link: "https://github.com/BhoirKalpesh/Kidney-Disease-Classification-Deep-Learning-Project",
   },
+
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://video-conference-app-ashen.vercel.app/",
+    title: "Book Recommender system",
+    des: "Book recomendation system using machine learning techniques",
+    img: "/book recommendation.png",
+    iconLists: [],
+    link: "https://github.com/BhoirKalpesh/book_recommender_system",
   },
   {
     id: 3,
@@ -95,40 +66,16 @@ export const projects = [
     link: "https://github.com/BhoirKalpesh/Big_Mart_Sales_Prediction",
   },
 
+  {
+    id: 4,
+    title: "Customer orders forecasting",
+    des: "This project challenge focuses on predicting the number of orders (grocery deliveries) at selected warehouses for the next 60 days.",
+    img: "/rohlik_forecast.png",
+    iconLists: [],
+    link: "",
+  },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
 
 export const companies = [
   {
@@ -192,4 +139,9 @@ export const socialMedia = [
     img: "/link.svg",
     link: "https://www.linkedin.com/in/kalpeshbhoir16",
   },
+  {
+    id:4,
+    img: "/kaggle-icon.svg",
+    link: "https://www.kaggle.com/kalpeshbhoir"
+  }
 ];

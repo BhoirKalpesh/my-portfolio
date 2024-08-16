@@ -7,6 +7,7 @@ import { PinContainer } from "./ui/Pin";
 
 const RecentProjects = () => {
   return (
+    <section id='#projects'>
     <div className="py-20">
       <h1 className="heading">
         A small selection of{" "}
@@ -19,8 +20,8 @@ const RecentProjects = () => {
             key={item.id}
           >
             <PinContainer
-              title="/ui.aceternity.com"
-              href="https://twitter.com/mannupaaji"
+              title="Projects"
+              href="https://twitter.com/KalpeshBhoir_16"
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
@@ -77,6 +78,7 @@ const RecentProjects = () => {
         ))}
       </div>
     </div>
+    </section>
   );
 };
 
