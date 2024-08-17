@@ -72,7 +72,7 @@ export const projects = [
     des: "This project challenge focuses on predicting the number of orders (grocery deliveries) at selected warehouses for the next 60 days.",
     img: "/rohlik_forecast.png",
     iconLists: [],
-    link: "",
+    link: "https://github.com/BhoirKalpesh/customer-order-forecasting",
   },
 ];
 
