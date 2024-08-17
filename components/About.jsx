@@ -45,7 +45,7 @@ function About() {
                 <div className=''>
                     <MagicButton
                         title="Download Resume"
-                        link='https://drive.google.com/file/d/1KmgqT5zIW3iLY075MF3M5dyabUiYtlvN/view?usp=sharing'
+                          link='https://drive.google.com/file/d/11G6VmyG2PeeBUi-7EjWjHXg5RoGF0TxH/view?usp=sharing'
                         position="right"
                     />
                 </div>
